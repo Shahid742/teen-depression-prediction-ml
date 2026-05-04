@@ -110,9 +110,6 @@ The model achieves excellent performance in identifying high-risk depression cas
 - Minimizes false negatives - crucial for mental health applications
 - Suitable for screening and early intervention programs
 
-![Confusion Matrix - Logistic Regression](images/confusion_matrix_logistic_regression.png)
-*Confusion Matrix showing the model's classification performance*
-
 ### Feature Importance Analysis
 
 Understanding which factors most influence depression risk prediction:
@@ -217,7 +214,7 @@ The dataset includes features related to:
 
 - Early identification of at-risk adolescents is crucial for intervention
 - Multiple factors contribute to depression risk - it's multifaceted
-- Sleep quality and quantity show strong correlation with depression risk
+- Sleep  and anxiety show strong correlation with depression risk
 - Social media usage patterns are significant indicators
 - Machine learning can effectively assist mental health professionals
 - High recall rate prioritizes preventing missed cases over perfect precision
@@ -268,4 +265,4 @@ This model is designed as a **screening tool** to assist mental health professio
 
 ---
 
-**Last Updated**: 2026-05-04
+Made with ❤️ by Shahid Mulani
