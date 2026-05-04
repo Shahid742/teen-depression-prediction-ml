@@ -1,6 +1,6 @@
 # Teen Depression Prediction ML
 
-A Machine Learning project using Random Forest to predict adolescent depression risk with 97% recall on high-risk cases.
+A Machine Learning project using Random Forest to predict adolescent depression risk with 96% recall on high-risk cases.
 
 ## 📋 Project Overview
 
@@ -8,7 +8,7 @@ This project implements a machine learning solution to predict the risk of depre
 
 ### Key Features
 
-- **High Recall Rate**: 97% recall on identifying high-risk depression cases
+- **High Recall Rate**: 96% recall on identifying high-risk depression cases
 - **Random Forest Algorithm**: Robust ensemble learning method for accurate predictions
 - **Comprehensive Feature Analysis**: Incorporates multiple factors affecting adolescent mental health
 - **Data-Driven Approach**: Built on real-world data patterns
@@ -49,6 +49,8 @@ This project requires the following Python packages:
 - **jupyter**: Interactive notebook environment
 - **matplotlib**: Data visualization and plotting
 - **seaborn**: Statistical data visualization
+- **joblib**: Saving Models.
+
 
 ### Installation
 
@@ -90,7 +92,7 @@ jupyter notebook
 
 - **Type**: Ensemble Learning (Supervised)
 - **Task**: Multiclass Classification (Depression Risk: Low , Medium , High)
-- **Performance Metric**: 97% Recall on high-risk cases
+- **Performance Metric**: 96% Recall on high-risk cases
 
 ### Why Random Forest?
 
@@ -106,9 +108,11 @@ jupyter notebook
 
 The model achieves excellent performance in identifying high-risk depression cases:
 
-- **Recall**: 97% (catches 97 out of 100 at high-risk cases)
+- **Recall**: 96% (catches 96 out of 100 at high-risk cases)
 - Minimizes false negatives - crucial for mental health applications
 - Suitable for screening and early intervention programs
+
+  ![Confusion Matrix - Random Forest].(images/confusion_matrix_tuned_random_forest.png)
 
 ### Feature Importance Analysis
 
