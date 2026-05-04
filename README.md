@@ -112,7 +112,7 @@ The model achieves excellent performance in identifying high-risk depression cas
 - Minimizes false negatives - crucial for mental health applications
 - Suitable for screening and early intervention programs
 
-  ![Confusion Matrix - Random Forest].(images/confusion_matrix_tuned_random_forest.png)
+  ![Confusion Matrix - Random Forest](images/confusion_matrix_tuned_random_forest.png)
 
 ### Feature Importance Analysis
 
