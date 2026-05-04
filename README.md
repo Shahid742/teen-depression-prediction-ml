@@ -89,7 +89,7 @@ jupyter notebook
 ### Algorithm: Random Forest
 
 - **Type**: Ensemble Learning (Supervised)
-- **Task**: Binary Classification (Depression Risk: Yes/No)
+- **Task**: Multiclass Classification (Depression Risk: Low , Medium , High)
 - **Performance Metric**: 97% Recall on high-risk cases
 
 ### Why Random Forest?
@@ -106,7 +106,7 @@ jupyter notebook
 
 The model achieves excellent performance in identifying high-risk depression cases:
 
-- **Recall**: 97% (catches 97 out of 100 at-risk cases)
+- **Recall**: 97% (catches 97 out of 100 at high-risk cases)
 - Minimizes false negatives - crucial for mental health applications
 - Suitable for screening and early intervention programs
 
